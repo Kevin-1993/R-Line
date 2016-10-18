@@ -1,0 +1,145 @@
+html,body{
+	width: 100%;
+	height: 100%;
+}
+.wrap{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.swiper-wrapper{
+	width: 100%;
+	height: 100%;
+}
+.header{
+	width: 96.25%;
+	height: 5.457746%;
+	margin: auto;
+	position: absolute;
+	top: 1.056338%;
+	left: 0;
+	right: 0;
+}
+.logo-l{
+	width: 28.75%;
+	height: 51.612903%;
+	left: 0;
+}
+.logo-r{
+	width: 7.5%;
+	right: 0;
+}
+.logo-l,.logo-r{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin: auto 0;
+}
+#page-one,#page-two,#page-three,#page-four,#page-five{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+.bg{
+	height: 100%;
+	position: absolute;
+	z-index: -1;
+}
+.web-swipe-tip{
+	width: 5.625%;
+	position: fixed;
+	z-index: 100;
+	bottom: 3.521126%;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+/*======================page one=====================*/
+.title-one{
+	width: 80%;
+	position: absolute;
+	top: 14.964788%;
+	left: 1.875%;
+}
+.title-b{
+	width: 90%;
+	position: absolute;
+	top: 32.922535%;
+	left: 1.875%;
+}
+.car-one{
+	width: 100%;
+	position: absolute;
+	top: 62.147887%;
+	left: -20.1875%;
+}
+#wheel{
+	width: 13.4375%;
+	position: absolute;
+	top: 32.5%;
+	right: 34%;
+}
+/*================page two===================*/
+.title-two{
+	width: 75.9375%;
+	position: absolute;
+	top: 10.915492%;
+	left: 3.125%;
+}
+.car-two{ 
+	width: 84.6875%;
+	position: absolute;
+	top: 60.915492%;
+	left: 15.3125%;
+}
+
+/*================page three===================*/
+.title-three{
+	width: 75.9375%;
+	position: absolute;
+	top: 13.028169%;
+	right: 4.0625%;
+}
+.fa{
+	width: 55%;
+	position: absolute;
+	top: 57.922535%;
+	left: 1.875%;
+}
+/*================page four===================*/
+.title-four{
+	width: 80%;
+	position: absolute;
+	top: 7.922535%;
+	left: 1.875%;
+}
+.title4-b{
+	width: 80%;
+	position: absolute;
+	top: 29.929577%;
+	left: 1.875%;
+}
+.bg4_b{
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+}
+/*================page five===================*/
+.title-five{
+	width: 80%;
+	position: absolute;
+	top: 7.922535%;
+	left: 1.875%;
+}
+.test-btn{
+	width: 45%;
+	position: absolute;
+	top: 26.056338%;
+	right: 5%;
+}
+.car-three{
+	width: 76.25%;
+	position: absolute;
+	top: 64%;
+}
