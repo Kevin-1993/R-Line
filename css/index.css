@@ -50,10 +50,36 @@ html,body{
 	width: 5.625%;
 	position: fixed;
 	z-index: 100;
-	bottom: 3.521126%;
+	bottom: 4%;
 	left: 0;
 	right: 0;
 	margin: 0 auto;
+	-webkit-animation: next-ani 1s linear infinite;
+			animation: next-ani 1s linear infinite;
+}
+@-webkit-keyframes next-ani{
+	from{
+		opacity: 1;
+		-webkit-transform: translateY(0px);
+				transform: translateY(0px);
+	}
+	to{
+		opacity: 0;
+		-webkit-transform: translateY(-25px);
+				transform: translateY(-25px);
+	}
+}
+@keyframes next-ani{
+	from{
+		opacity: 1;
+		-webkit-transform: translateY(0px);
+				transform: translateY(0px);
+	}
+	to{
+		opacity: 0;
+		-webkit-transform: translateY(-25px);
+				transform: translateY(-25px);
+	}
 }
 /*======================page one=====================*/
 .title-one{
